@@ -2,19 +2,33 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content text-center">
-        <div className="max-w-md">
-          <h1 className="text-5xl font-bold">Hello there</h1>
-          <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button className="btn btn-primary">Get Started</button>
+  <div className="md:container md:mx-auto lg:max-w-7xl">
+    <div className="rows">
+      <div className="grid py-3 gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 text-justify">
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officia quae quisquam, cupiditate quas architecto porro neque dolores ratione omnis vero temporibus repellendus quod excepturi commodi modi? Molestiae, deserunt perferendis similique voluptate qui iusto corporis fugit voluptates expedita alias architecto veniam, doloribus voluptatem sint maxime tempora. Eos ex laborum amet.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officia quae quisquam, cupiditate quas architecto porro neque dolores ratione omnis vero temporibus repellendus quod excepturi commodi modi? Molestiae, deserunt perferendis similique voluptate qui iusto corporis fugit voluptates expedita alias architecto veniam, doloribus voluptatem sint maxime tempora. Eos ex laborum amet.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officia quae quisquam, cupiditate quas architecto porro neque dolores ratione omnis vero temporibus repellendus quod excepturi commodi modi? Molestiae, deserunt perferendis similique voluptate qui iusto corporis fugit voluptates expedita alias architecto veniam, doloribus voluptatem sint maxime tempora. Eos ex laborum amet.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officia quae quisquam, cupiditate quas architecto porro neque dolores ratione omnis vero temporibus repellendus quod excepturi commodi modi? Molestiae, deserunt perferendis similique voluptate qui iusto corporis fugit voluptates expedita alias architecto veniam, doloribus voluptatem sint maxime tempora. Eos ex laborum amet.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officia quae quisquam, cupiditate quas architecto porro neque dolores ratione omnis vero temporibus repellendus quod excepturi commodi modi? Molestiae, deserunt perferendis similique voluptate qui iusto corporis fugit voluptates expedita alias architecto veniam, doloribus voluptatem sint maxime tempora. Eos ex laborum amet.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officia quae quisquam, cupiditate quas architecto porro neque dolores ratione omnis vero temporibus repellendus quod excepturi commodi modi? Molestiae, deserunt perferendis similique voluptate qui iusto corporis fugit voluptates expedita alias architecto veniam, doloribus voluptatem sint maxime tempora. Eos ex laborum amet.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officia quae quisquam, cupiditate quas architecto porro neque dolores ratione omnis vero temporibus repellendus quod excepturi commodi modi? Molestiae, deserunt perferendis similique voluptate qui iusto corporis fugit voluptates expedita alias architecto veniam, doloribus voluptatem sint maxime tempora. Eos ex laborum amet.
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
